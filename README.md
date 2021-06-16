@@ -2,7 +2,4 @@
 
 Examples of how to use Kotlin.
 
-All code in commented.
-
-### TODO:
--  Update examples
+- `[variables.kt](src/main/kotlin/examples/variables.kt)` -> Data types and variables in Kotlin  
