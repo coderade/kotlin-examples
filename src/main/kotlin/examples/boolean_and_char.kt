@@ -25,19 +25,19 @@ private fun demoBoolean() {
     println("is big bigger? ${bigNumber > smallNumber}")
     println("")
 
-    if(firstOperand() || secondOperand()){
+    if (firstOperand() || secondOperand()) {
         println("at least one operand is true")
     }
 
     println("")
 
-    if(firstOperand() || secondOperand()){
+    if (firstOperand() || secondOperand()) {
         println("at least one operand is true")
     }
 
     println("")
 
-    if(firstOperand() && secondOperand()){
+    if (firstOperand() && secondOperand()) {
         println("Both operands are true")
     }
 

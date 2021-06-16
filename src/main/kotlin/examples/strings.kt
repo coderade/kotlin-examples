@@ -20,11 +20,11 @@ fun main() {
 
     println("Comparing $compare1 with $compare2 ==> ${compare1.compareTo(compare2)}")
 
-    val sub = greeting.subSequence(6,9)
+    val sub = greeting.subSequence(6, 9)
     println("sub = $sub")
 
 
-    for(single in greeting){
+    for (single in greeting) {
         print(" $single")
     }
 

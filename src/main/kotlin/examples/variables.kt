@@ -6,14 +6,14 @@ fun main() {
     val otherNumber = 43 // Int by default
 
     // Integers types
-    var intValue : Int = 1234 //32 bits
-    val longValue : Long = 1234L //64 bits
-    var byteValue : Byte = 127 //8 bits
-    var shortValue : Short = 32767 //16 bits
+    var intValue: Int = 1234 //32 bits
+    val longValue: Long = 1234L //64 bits
+    var byteValue: Byte = 127 //8 bits
+    var shortValue: Short = 32767 //16 bits
 
     // Floating point types
-    val doubleValue : Double = 1234.56 //64 bits
-    var floatValue : Float = 1234.56F //32 bits
+    val doubleValue: Double = 1234.56 //64 bits
+    var floatValue: Float = 1234.56F //32 bits
     val alsoDouble = 12.1 //Double by default
 
     //Converting numbers
