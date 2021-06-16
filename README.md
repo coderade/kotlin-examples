@@ -11,7 +11,7 @@ Examples of how to use Kotlin.
 - [boolean_and_char.kt](src/main/kotlin/examples/boolean_and_char.kt) -> Boolean and char data types and variables
 - [strings.kt](src/main/kotlin/examples/strings.kt) -> String examples in
   
-# Control Flow
+### Control Flow
 
 - [statements_expressions.kt](src/main/kotlin/examples/statements_expressions.kt) -> Statements and expressions
 - [if_expression.kt](src/main/kotlin/examples/if_expression.kt) -> If expression in Kotlin
