@@ -27,4 +27,10 @@ fun main() {
     val binary = 0b10101
     val long = 123456L
 
+    // Character
+    val letter = 'A' //Char
+    val tab = '\t' //ASCI
+    var infinity = '\u221E' //Unicode
+
+
 }
