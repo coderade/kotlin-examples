@@ -1,34 +1,48 @@
 package main.kotlin.examples
 
-fun returnsNothing() {
-    println("returnsNothing() function")
-}
 
 fun main() {
     val bigger = 1000
     val smaller = 1
 
-    // won't compile
     val max = if (bigger > smaller) bigger else smaller
 
-    val age = 35
 
-    val boardGroup = when (age) {
-        in 0..18 -> "family"
-        in 65..200 -> "family"
-        else -> "regular"
+    // if version
+    if (bigger > 10) {
+        println("greater than 10")
+    } else if (bigger > 100) {
+        println("greater than 100")
+    } else {
+        println("not too big")
     }
 
-    println("you are in the $boardGroup group")
+    // when version
+    when {
+        bigger > 10 -> {
+            println("greater than 10")
+        }
+        bigger > 100 -> {
+            println("greater than 100")
+        }
+        else -> {
+            println("not too big")
+        }
+    }
 
-    val fromNothing =  returnsNothing()
-    println("$fromNothing")
+    val number = 121
 
-    var a = 100
-    var b = 1
-    // won't compile
-    // a = b  = 1000
+    val bucket: Any = if (number > 100) {  // the best idea here is use when
+        "alpha"
+    } else if (number > 90) {
+        println("less than 90")
+        2
+    } else if (number > 80) {
+        1
+    } else {
+        0
+    }
 
-    
+    println("bucket = $bucket")
 
 }

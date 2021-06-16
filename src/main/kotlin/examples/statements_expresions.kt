@@ -8,8 +8,8 @@ fun main() {
     val bigger = 1000
     val smaller = 1
 
-    // won't compile
     val max = if (bigger > smaller) bigger else smaller
+    println(max)
 
     val age = 35
 
