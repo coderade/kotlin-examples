@@ -1,4 +1,4 @@
-package main.kotlin.examples
+package main.kotlin.examples.data_types
 
 fun firstOperand(): Boolean {
     println("firstOperand")

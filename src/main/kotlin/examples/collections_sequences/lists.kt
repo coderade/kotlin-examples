@@ -1,4 +1,4 @@
-package main.kotlin.examples
+package main.kotlin.examples.collections_sequences
 
 fun main() {
     val names = listOf("Jhon", "Ringo", "Paul", "George")

@@ -1,5 +1,4 @@
-package main.kotlin.examples
-
+package main.kotlin.examples.control_flow
 
 fun main() {
     val bigger = 1000

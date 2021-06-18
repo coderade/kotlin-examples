@@ -1,4 +1,4 @@
-package main.kotlin.examples
+package main.kotlin.examples.collections_sequences
 
 data class Student(val firstName: String, val grade: Int)
 

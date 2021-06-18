@@ -1,4 +1,4 @@
-package main.kotlin.examples
+package main.kotlin.examples.control_flow
 
 fun returnsNothing() {
     println("returnsNothing() function")

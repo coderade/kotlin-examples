@@ -1,4 +1,4 @@
-package main.kotlin.examples
+package main.kotlin.examples.collections_sequences
 
 fun main() {
     val m1 = mapOf(1 to "alpha", 2 to "beta", 3 to "gamma", 4 to "delta")

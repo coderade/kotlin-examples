@@ -1,4 +1,4 @@
-package main.kotlin.examples
+package main.kotlin.examples.collections_sequences
 
 fun main() {
     val threes = setOf(3,3,3,3) //duplicates are not allowed in sets
