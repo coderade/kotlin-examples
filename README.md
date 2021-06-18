@@ -21,8 +21,12 @@ Examples of how to use Kotlin.
 
 ### Collections and sequences
 
-
 - [arrays.kt](src/main/kotlin/examples/collections_sequences/arrays.kt) -> Arrays examples
 - [lists.kt](src/main/kotlin/examples/collections_sequences/lists.kt) -> Lists examples
 - [sets.kt](src/main/kotlin/examples/collections_sequences/sets.kt) -> Sets examples
 - [maps.kt](src/main/kotlin/examples/collections_sequences/maps.kt) -> Maps examples
+- [sequences.kt](src/main/kotlin/examples/collections_sequences/sequences.kt) -> Sequences examples
+
+### Input, Output and Files
+
+- [command_line.kt](src/main/kotlin/examples/io_files/command_line.kt) -> Sequences examples
