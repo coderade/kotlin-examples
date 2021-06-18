@@ -24,3 +24,5 @@ Examples of how to use Kotlin.
 
 - [arrays.kt](src/main/kotlin/examples/arrays.kt) -> Arrays examples
 - [lists.kt](src/main/kotlin/examples/lists.kt) -> Lists examples
+- [sets.kt](src/main/kotlin/examples/sets.kt) -> Sets examples
+- [maps.kt](src/main/kotlin/examples/maps.kt) -> Maps examples
