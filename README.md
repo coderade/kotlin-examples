@@ -18,3 +18,9 @@ Examples of how to use Kotlin.
 - [when_expression.kt](src/main/kotlin/examples/when_expression.kt) -> When expression in Kotlin
 - [loops.kt](src/main/kotlin/examples/loops.kt) -> Loops in Kotlin
 - [null_smart_casting.kt](src/main/kotlin/examples/null_smart_casting.kt) -> Nulls and smart casting examples
+
+### Collections and sequences
+
+
+- [arrays.kt](src/main/kotlin/examples/arrays.kt) -> Arrays examples
+- [lists.kt](src/main/kotlin/examples/lists.kt) -> Lists examples
