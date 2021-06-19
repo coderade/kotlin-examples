@@ -30,3 +30,5 @@ Examples of how to use Kotlin.
 ### Input, Output and Files
 
 - [command_line.kt](src/main/kotlin/examples/io_files/command_line.kt) -> Sequences examples
+- [user_input.kt](src/main/kotlin/examples/io_files/user_input.kt) -> Getting user input examples
+- [read_and_write_file.kt](src/main/kotlin/examples/io_files/read_and_write_file.kt) -> Example of how to read and write files
