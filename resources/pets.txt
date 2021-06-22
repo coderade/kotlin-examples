@@ -2,3 +2,7 @@ cat
 dog
 bird
 fish
+cat
+dog
+bird
+fish
