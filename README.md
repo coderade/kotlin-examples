@@ -40,3 +40,6 @@ Examples of how to use Kotlin.
 - [lambda_functions.kt](src/main/kotlin/examples/functions/lambda_functions.kt) -> Examples of Lambda functions in Kotlin
 - [anonymous_functions.kt](src/main/kotlin/examples/functions/anonymous_functions.kt) -> Examples of Anonymous functions in Kotlin
 - [local_functions.kt](src/main/kotlin/examples/functions/local_functions.kt) -> Examples of Local functions in Kotlin
+
+### OO: Classes, Objects and Interfaces
+- [classes.kt](src/main/kotlin/examples/oo/classes.kt) -> Examples of how to use Classes in Kotlin
