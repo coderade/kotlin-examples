@@ -50,3 +50,8 @@ Examples of how to use Kotlin.
 - [class_composition.kt](src/main/kotlin/examples/oo/class_composition.kt) -> Examples of how to use Class compositions 
 and how they can be a best option when compared with [inheritance.kt](src/main/kotlin/examples/oo/class_composition.kt)
 - [companion_objects.kt](src/main/kotlin/examples/oo/companion_objects.kt) -> Examples of how to use Companion objects
+
+### Coroutines
+
+- [need_for_coroutines.kt](src/main/kotlin/examples/coroutines/need_for_coroutines.kt) -> Examples of the need for 
+  coroutines, comparison of asynchronous/synchronous code.
