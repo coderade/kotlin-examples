@@ -47,3 +47,5 @@ Examples of how to use Kotlin.
 - [constructors.kt](src/main/kotlin/examples/oo/constructors.kt) -> Examples of how to use Constructors, and the Init 
   block in Kotlin
 - [data_classes.kt](src/main/kotlin/examples/oo/data_classes.kt) -> Examples of how to use Data classes
+- [class_composition.kt](src/main/kotlin/examples/oo/class_composition.kt) -> Examples of how to use Class compositions 
+and how they can be a best option when compared with [inheritance.kt](src/main/kotlin/examples/oo/class_composition.kt)
