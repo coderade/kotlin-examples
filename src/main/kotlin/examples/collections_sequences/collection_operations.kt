@@ -1,4 +1,4 @@
-package main.kotlin.examples.collections_sequences
+package examples.collections_sequences
 
 fun main() {
     val list = listOf(1, 2, 3, 4, 5, 5, 6, 7, 7, 8)
@@ -8,7 +8,7 @@ fun main() {
     println("list = $list")
     val tList = list.map { it * 2 }
     println("list.map {it*2} = $tList")
-    println("tList last  ${tList.last{ it > 2}}")
+    println("tList last  ${tList.last { it > 2 }}")
 
     println()
     println("map = $map")

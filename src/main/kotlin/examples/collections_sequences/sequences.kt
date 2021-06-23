@@ -1,4 +1,4 @@
-package main.kotlin.examples.collections_sequences
+package examples.collections_sequences
 
 fun main() {
     val result = (100 until 200)

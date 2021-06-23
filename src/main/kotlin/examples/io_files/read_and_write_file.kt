@@ -1,4 +1,4 @@
-package main.kotlin.examples.io_files
+package examples.io_files
 
 import java.io.File
 

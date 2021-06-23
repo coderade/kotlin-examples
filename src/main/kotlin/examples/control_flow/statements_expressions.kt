@@ -1,4 +1,4 @@
-package main.kotlin.examples.control_flow
+package examples.control_flow
 
 fun returnsNothing() {
     println("returnsNothing() function")
@@ -21,14 +21,13 @@ fun main() {
 
     println("you are in the $boardGroup group")
 
-    val fromNothing =  returnsNothing()
+    val fromNothing = returnsNothing()
     println("$fromNothing")
 
     var a = 100
     var b = 1
     // won't compile
     // a = b  = 1000
-
 
 
 }

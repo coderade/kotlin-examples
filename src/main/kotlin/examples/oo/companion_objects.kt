@@ -1,23 +1,23 @@
-package main.kotlin.examples.oo
+package examples.oo
 
-class CantCreate private constructor(val message: String){
-    fun showMessage(){
+class CantCreate private constructor(val message: String) {
+    fun showMessage() {
         println(message)
     }
 
     companion object {
         const val LIGHT_SPEED = 299_792_458
-        fun factory(msg: String) : CantCreate{
+        fun factory(msg: String): CantCreate {
             return CantCreate(msg)
         }
 
-        fun sillyPrint(self: CantCreate){
+        fun sillyPrint(self: CantCreate) {
             println("Accessing ${self.message}")
         }
     }
 }
 
-fun main(){
+fun main() {
     val c1 = CantCreate.factory("LOL")
     c1.showMessage()
 

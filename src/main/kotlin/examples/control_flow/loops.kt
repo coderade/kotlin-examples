@@ -1,4 +1,4 @@
-package main.kotlin.examples.control_flow
+package examples.control_flow
 
 fun main() {
     //c-style loop

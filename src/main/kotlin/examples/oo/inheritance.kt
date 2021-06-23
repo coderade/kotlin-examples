@@ -1,4 +1,4 @@
-package main.kotlin.examples.oo
+package examples.oo
 
 // Example of how inheritance is not a good idea
 

@@ -1,4 +1,4 @@
-package main.kotlin.examples.oo
+package examples.oo
 
 
 //class Student(private val firstName: String, private val lastName: String, private val grade: Int) {
@@ -35,13 +35,13 @@ fun main() {
 
     println()
     println(students[0])
-    println("Does ${students[0]} == ${students[1]} : ${students[0] == students[1]}" )
+    println("Does ${students[0]} == ${students[1]} : ${students[0] == students[1]}")
 
     val maria = students[0].copy(firstName = "Maria", lastName = "Paula")
     students.add(maria)
     println()
 
-    for (student in students){
+    for (student in students) {
         println(student)
     }
 }

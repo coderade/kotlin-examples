@@ -1,4 +1,4 @@
-package main.kotlin.examples.data_types
+package examples.data_types
 
 fun main() {
     val greeting = "Hello there"

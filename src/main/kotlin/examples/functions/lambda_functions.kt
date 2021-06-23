@@ -1,4 +1,4 @@
-package main.kotlin.examples.functions
+package examples.functions
 
 fun main() {
     val lambda: (Int, Int) -> Int = { a: Int, b: Int -> a + b }

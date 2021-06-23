@@ -1,4 +1,4 @@
-package main.kotlin.examples.oo
+package examples.oo
 
 class PlainShort {}
 
@@ -16,15 +16,14 @@ class CourseProperties(courseTitle: String) {
 
 class Person(val firstName: String, lastName: String, var age: Int)
 
-class Course(courseTitle: String){
+class Course(courseTitle: String) {
     private val title = courseTitle
     private var description = ""
+        get() {
+            return if (field.isBlank()) "no description" else "$field!"
+        }
 
-    get(){
-        return if (field.isBlank()) "no description" else "$field!"
-    }
-
-    fun show(){
+    fun show() {
         println(title)
     }
 

@@ -1,4 +1,4 @@
-package main.kotlin.examples.oo
+package examples.oo
 
 //Composition of classes, check the inheritance.kt file to compare different approach of creating classes
 
@@ -58,21 +58,27 @@ class NoPay() : IPayment {
 }
 
 fun main() {
-    val hourly = Employee(Worker("bit wrangler"),
+    val hourly = Employee(
+        Worker("bit wrangler"),
         Being("abel"),
-        HourlyPay(42.42))
+        HourlyPay(42.42)
+    )
     println("My name is ${hourly.getName()}")
     hourly.doWork()
 
-    val salaried = Employee(Worker("program manager"),
+    val salaried = Employee(
+        Worker("program manager"),
         Being("beth"),
-        SalariedPay(100_000.0))
+        SalariedPay(100_000.0)
+    )
     println("My name is ${salaried.getName()}")
     salaried.doWork()
 
-    val rescueDog = Employee(Worker("rescue dog"),
+    val rescueDog = Employee(
+        Worker("rescue dog"),
         Being("fido"),
-        NoPay())
+        NoPay()
+    )
     println("My name is ${rescueDog.getName()}")
     rescueDog.doWork()
 }

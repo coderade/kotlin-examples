@@ -49,3 +49,4 @@ Examples of how to use Kotlin.
 - [data_classes.kt](src/main/kotlin/examples/oo/data_classes.kt) -> Examples of how to use Data classes
 - [class_composition.kt](src/main/kotlin/examples/oo/class_composition.kt) -> Examples of how to use Class compositions 
 and how they can be a best option when compared with [inheritance.kt](src/main/kotlin/examples/oo/class_composition.kt)
+- [companion_objects.kt](src/main/kotlin/examples/oo/companion_objects.kt) -> Examples of how to use Companion objects

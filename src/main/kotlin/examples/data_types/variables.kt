@@ -1,4 +1,4 @@
-package main.kotlin.examples.data_types
+package examples.data_types
 
 fun main() {
     var count: Int = 0 // The var keyword creates a mutable variable.

@@ -1,8 +1,8 @@
-package main.kotlin.examples.functions
+package examples.functions
 
 fun main() {
     val words = listOf("racecar", "civic", "level", "butter")
-    words.forEach{ word -> println("$word is Palindrome? ${isPalindrome(word)}  ") }
+    words.forEach { word -> println("$word is Palindrome? ${isPalindrome(word)}  ") }
 }
 
 fun isPalindrome(word: String): Boolean {

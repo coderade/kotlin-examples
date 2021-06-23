@@ -1,4 +1,4 @@
-package main.kotlin.examples.io_files
+package examples.io_files
 
 import java.util.*
 
@@ -21,7 +21,7 @@ fun main() {
     scanner()
 }
 
-fun scanner(){
+fun scanner() {
     println()
     val scan = Scanner(System.`in`)
     print("\n Enter an integer number: ")

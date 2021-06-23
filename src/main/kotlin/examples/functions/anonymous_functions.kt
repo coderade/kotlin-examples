@@ -1,4 +1,4 @@
-package main.kotlin.examples.functions
+package examples.functions
 
 fun main() {
     val num = listOf(1, 2, 3, 4, 5, 6, 7, 8)
@@ -20,7 +20,7 @@ fun main() {
         if (age >= 65)
             return "senior discount"
         else if (age >= 21)
-            return  "regular"
+            return "regular"
         return "underage"
     }
 

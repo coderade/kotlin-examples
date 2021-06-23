@@ -1,4 +1,4 @@
-package main.kotlin.examples.oo
+package examples.oo
 
 class Vehicle(
     private val make: String, private val model: String,
@@ -40,10 +40,12 @@ fun main() {
     val car2 = Vehicle(state = "PR", year = 2020, make = "Honda", model = "HRV")
     println(car2)
 
-    val car3 = Vehicle("Tesla","Model S", 2019, "RI", style = "P100D")
+    val car3 = Vehicle("Tesla", "Model S", 2019, "RI", style = "P100D")
     println(car3)
 
-    val car4 = Vehicle("Tesla","Model 3", 2019, "CA", "Performance",
-    "New")
+    val car4 = Vehicle(
+        "Tesla", "Model 3", 2019, "CA", "Performance",
+        "New"
+    )
     println(car4)
 }
