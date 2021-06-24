@@ -55,3 +55,5 @@ and how they can be a best option when compared with [inheritance.kt](src/main/k
 
 - [need_for_coroutines.kt](src/main/kotlin/examples/coroutines/need_for_coroutines.kt) -> Examples of the need for 
   coroutines, comparison of asynchronous/synchronous code.
+- [canceled_and_timeout.kt](src/main/kotlin/examples/coroutines/canceled_and_timeout.kt) -> Examples of canceled and 
+timed out coroutines
