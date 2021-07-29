@@ -57,3 +57,4 @@ and how they can be a best option when compared with [inheritance.kt](src/main/k
   coroutines, comparison of asynchronous/synchronous code.
 - [canceled_and_timeout.kt](src/main/kotlin/examples/coroutines/canceled_and_timeout.kt) -> Examples of canceled and 
 timed out coroutines
+- [async_file_reading.kt](src/main/kotlin/examples/coroutines/async_file_reading.kt) -> Example of an async file read with coroutines
